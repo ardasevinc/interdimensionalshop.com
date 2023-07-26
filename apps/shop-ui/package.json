@@ -20,6 +20,7 @@
     "eslint": "^8.45.0",
     "eslint-config-custom": "workspace:*",
     "typescript": "^5.0.2",
+    "tsconfig": "workspace:*",
     "vite": "^4.4.5"
   }
 }

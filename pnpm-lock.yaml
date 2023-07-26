@@ -25,6 +25,7 @@ importers:
       eslint-config-custom: workspace:*
       react: ^18.2.0
       react-dom: ^18.2.0
+      tsconfig: workspace:*
       typescript: ^5.0.2
       vite: ^4.4.5
     dependencies:
@@ -36,6 +37,7 @@ importers:
       '@vitejs/plugin-react-swc': 3.3.2_vite@4.4.7
       eslint: 8.45.0
       eslint-config-custom: link:../../packages/eslint-config-custom
+      tsconfig: link:../../packages/tsconfig
       typescript: 5.0.4
       vite: 4.4.7
 

@@ -1,3 +1,4 @@
+/* eslint no-undef: 0 */ // --> OFF
 module.exports = {
   env: { browser: true, es2020: true },
 
@@ -5,8 +6,9 @@ module.exports = {
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:react-hooks/recommended',
-    "turbo",
-    "prettier"
+    'turbo',
+    'plugin:jsx-a11y/recommended',
+    'prettier',
   ],
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   parser: '@typescript-eslint/parser',

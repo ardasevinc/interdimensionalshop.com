@@ -23,11 +23,11 @@
     "eslint": "^8.45.0",
     "eslint-config-node": "workspace:*",
     "jest": "^29.6.2",
-    "shop-ui": "link:../shop-ui",
     "tsconfig": "workspace:*",
     "typescript": "^5.0.2",
     "vite": "^4.4.5",
-    "vite-plugin-node": "^3.0.2"
+    "vite-plugin-node": "^3.0.2",
+    "vite-plugin-terminal": "^1.1.0"
   },
   "engines": {
     "node": ">=18.16.0"

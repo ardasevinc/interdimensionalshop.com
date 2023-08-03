@@ -2,8 +2,12 @@
   "extends": "tsconfig/base.json",
 
   "compilerOptions": {
-      "target": "es2016",
-      "module": "ESNext",
-      "types": ["node", "express", "vite/client"]
+    "target": "es2016",
+    "module": "ESNext",
+    "types": ["node", "express", "vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   }
 }
